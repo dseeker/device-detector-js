@@ -40,18 +40,18 @@
   "license": "LGPL-3.0",
   "scripts": {
     "dev": "tsc --pretty --watch",
-    "predev": "yarn fixtures",
+    "predev": "npm run fixtures",
     "fixtures": "sh load-fixtures.sh",
     "lint": "tslint -c tslint.json -p tsconfig.json --fix",
-    "pretest": "yarn build",
+    "pretest": "npm run build",
     "test": "jest src --coverage --verbose",
     "test:watch": "jest src --coverage --verbose --watch",
     "coverage": "coveralls < ./coverage/lcov.info",
-    "prebuild": "rm -rf dist/ && yarn lint",
+    "prebuild": "rm -rf dist/ && npm run lint",
     "build": "tsc --pretty"
   },
   "napa": {
-    "device-detector": "https://github.com/matomo-org/device-detector#3.12.6"
+    "device-detector": "https://github.com/matomo-org/device-detector"
   },
   "napa-config": {
     "cache": false

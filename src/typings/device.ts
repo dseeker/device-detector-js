@@ -9,6 +9,11 @@ export type DeviceType =
   | "car"
   | "console"
   | "portable media player"
+  | "phablet"
+  | "wearable"
+  | "smart speaker"
+  | "feature phone"
+  | "peripheral"
 
 export interface GenericDeviceResult {
   type: DeviceType;

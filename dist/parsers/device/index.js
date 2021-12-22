@@ -8,6 +8,7 @@ const mobiles_1 = __importDefault(require("./mobiles"));
 const televisions_1 = __importDefault(require("./televisions"));
 const cars_1 = __importDefault(require("./cars"));
 const consoles_1 = __importDefault(require("./consoles"));
+const notebooks_1 = __importDefault(require("./notebooks"));
 const portable_media_players_1 = __importDefault(require("./portable-media-players"));
 const deviceParsers = [
     consoles_1.default,
@@ -15,7 +16,8 @@ const deviceParsers = [
     cameras_1.default,
     televisions_1.default,
     portable_media_players_1.default,
-    mobiles_1.default
+    mobiles_1.default,
+    notebooks_1.default
 ];
 class ClientParser {
     constructor() {

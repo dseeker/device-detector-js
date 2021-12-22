@@ -38,6 +38,11 @@ declare const _exports: {
             "device": string;
         })[];
     };
+    "Adronix": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
     "HTC": {
         "regex": string;
         "device": string;
@@ -234,10 +239,15 @@ declare const _exports: {
     "Advan": {
         "regex": string;
         "device": string;
-        "models": {
+        "models": ({
             "regex": string;
             "model": string;
-        }[];
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "Advance": {
         "regex": string;
@@ -255,7 +265,10 @@ declare const _exports: {
     "AGM": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
     };
     "Airness": {
         "regex": string;
@@ -359,10 +372,15 @@ declare const _exports: {
     "Amoi": {
         "regex": string;
         "device": string;
-        "models": {
+        "models": ({
             "regex": string;
             "model": string;
-        }[];
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "Ainol": {
         "regex": string;
@@ -430,7 +448,10 @@ declare const _exports: {
     "ANS": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
     };
     "AOC": {
         "regex": string;
@@ -812,6 +833,14 @@ declare const _exports: {
             "device"?: undefined;
         })[];
     };
+    "Cellution": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
     "Changhong": {
         "regex": string;
         "device": string;
@@ -957,7 +986,15 @@ declare const _exports: {
     "Cricket": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "Crius Mea": {
         "regex": string;
@@ -981,6 +1018,14 @@ declare const _exports: {
         }[];
     };
     "Cube": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Oculus": {
         "regex": string;
         "device": string;
         "models": {
@@ -1399,6 +1444,14 @@ declare const _exports: {
         "device": string;
         "model": string;
     };
+    "SUNWIND": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
     "Sony": {
         "regex": string;
         "device": string;
@@ -1456,7 +1509,15 @@ declare const _exports: {
     "Energy Sistem": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "eTouch": {
         "regex": string;
@@ -1523,7 +1584,7 @@ declare const _exports: {
             "device"?: undefined;
         })[];
     };
-    "Explay": {
+    "Leotec": {
         "regex": string;
         "device": string;
         "models": ({
@@ -1774,6 +1835,19 @@ declare const _exports: {
             "model": string;
         }[];
     };
+    "Explay": {
+        "regex": string;
+        "device": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
+    };
     "Gol Mobile": {
         "regex": string;
         "device": string;
@@ -1928,8 +2002,8 @@ declare const _exports: {
             "device"?: undefined;
         } | {
             "regex": string;
-            "model": string;
             "device": string;
+            "model": string;
         })[];
     };
     "Hyundai": {
@@ -2050,15 +2124,10 @@ declare const _exports: {
     "Lumus": {
         "regex": string;
         "device": string;
-        "models": ({
+        "models": {
             "regex": string;
             "model": string;
-            "device"?: undefined;
-        } | {
-            "regex": string;
-            "device": string;
-            "model": string;
-        })[];
+        }[];
     };
     "M4tel": {
         "regex": string;
@@ -2116,8 +2185,8 @@ declare const _exports: {
             "device"?: undefined;
         } | {
             "regex": string;
-            "model": string;
             "device": string;
+            "model": string;
         })[];
     };
     "InFocus": {
@@ -2219,7 +2288,10 @@ declare const _exports: {
     "iView": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
     };
     "Impression": {
         "regex": string;
@@ -2244,12 +2316,12 @@ declare const _exports: {
         "device": string;
         "models": ({
             "regex": string;
-            "model": string;
-            "device"?: undefined;
-        } | {
-            "regex": string;
             "device": string;
             "model": string;
+        } | {
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
         })[];
     };
     "iZotron": {
@@ -2281,6 +2353,15 @@ declare const _exports: {
         "device": string;
         "model": string;
     };
+    "Juniper Systems": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "device": string;
+            "model": string;
+        }[];
+    };
     "Just5": {
         "regex": string;
         "device": string;
@@ -2308,6 +2389,14 @@ declare const _exports: {
         "model": string;
     };
     "Kazam": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Kazuna": {
         "regex": string;
         "device": string;
         "models": {
@@ -2462,6 +2551,11 @@ declare const _exports: {
             "device": string;
         })[];
     };
+    "Mymaga": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
     "Krüger&Matz": {
         "regex": string;
         "device": string;
@@ -2509,6 +2603,14 @@ declare const _exports: {
         "device": string;
         "model": string;
     };
+    "iVA": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
     "Landvo": {
         "regex": string;
         "device": string;
@@ -2524,6 +2626,11 @@ declare const _exports: {
             "regex": string;
             "model": string;
         }[];
+    };
+    "iOutdoor": {
+        "regex": string;
+        "device": string;
+        "model": string;
     };
     "Lanix": {
         "regex": string;
@@ -2593,19 +2700,6 @@ declare const _exports: {
             "model": string;
         }[];
     };
-    "Leotec": {
-        "regex": string;
-        "device": string;
-        "models": ({
-            "regex": string;
-            "model": string;
-            "device"?: undefined;
-        } | {
-            "regex": string;
-            "device": string;
-            "model": string;
-        })[];
-    };
     "Lephone": {
         "regex": string;
         "device": string;
@@ -2622,7 +2716,23 @@ declare const _exports: {
     "Lenco": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": ({
+            "regex": string;
+            "device": string;
+            "model": string;
+        } | {
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        })[];
+    };
+    "Aligator": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
     };
     "Lenovo": {
         "regex": string;
@@ -2864,6 +2974,14 @@ declare const _exports: {
             "model": string;
         }[];
     };
+    "Fourel": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
     "Meizu": {
         "regex": string;
         "device": string;
@@ -2954,10 +3072,15 @@ declare const _exports: {
     "Mobicel": {
         "regex": string;
         "device": string;
-        "models": {
+        "models": ({
             "regex": string;
             "model": string;
-        }[];
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "Mobiistar": {
         "regex": string;
@@ -3010,6 +3133,14 @@ declare const _exports: {
         })[];
     };
     "Mofut": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "BrightSign": {
         "regex": string;
         "device": string;
         "models": {
@@ -3235,6 +3366,14 @@ declare const _exports: {
             "model": string;
         }[];
     };
+    "Opsson": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
     "Nomi": {
         "regex": string;
         "device": string;
@@ -3372,21 +3511,13 @@ declare const _exports: {
             "device": string;
         })[];
     };
-    "Opsson": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
     "Orange": {
         "regex": string;
         "device": string;
         "models": ({
             "regex": string;
-            "model": string;
             "device": string;
+            "model": string;
         } | {
             "regex": string;
             "model": string;
@@ -3533,10 +3664,15 @@ declare const _exports: {
     "JVC": {
         "regex": string;
         "device": string;
-        "models": {
+        "models": ({
             "regex": string;
             "model": string;
-        }[];
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "phoneOne": {
         "regex": string;
@@ -3906,7 +4042,10 @@ declare const _exports: {
     "Tanix": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
     };
     "Pantech": {
         "regex": string;
@@ -3985,11 +4124,11 @@ declare const _exports: {
         "models": ({
             "regex": string;
             "model": string;
-            "device"?: undefined;
+            "device": string;
         } | {
             "regex": string;
             "model": string;
-            "device": string;
+            "device"?: undefined;
         })[];
     };
     "Sanyo": {
@@ -4042,10 +4181,15 @@ declare const _exports: {
     "Quantum": {
         "regex": string;
         "device": string;
-        "models": {
+        "models": ({
             "regex": string;
             "model": string;
-        }[];
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "Quechua": {
         "regex": string;
@@ -4055,10 +4199,15 @@ declare const _exports: {
     "Ramos": {
         "regex": string;
         "device": string;
-        "models": {
+        "models": ({
             "regex": string;
             "model": string;
-        }[];
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "Razer": {
         "regex": string;
@@ -4172,6 +4321,29 @@ declare const _exports: {
             "model": string;
         }[];
     };
+    "Toshiba": {
+        "regex": string;
+        "device": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "model": string;
+            "device": string;
+        })[];
+    };
+    "Ok": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Anker": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
     "Amazon": {
         "regex": string;
         "device": string;
@@ -4267,8 +4439,8 @@ declare const _exports: {
             "device"?: undefined;
         } | {
             "regex": string;
-            "model": string;
             "device": string;
+            "model": string;
         })[];
     };
     "Tesco": {
@@ -4329,6 +4501,14 @@ declare const _exports: {
             "model": string;
         }[];
     };
+    "Telpo": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
     "ThL": {
         "regex": string;
         "device": string;
@@ -4378,6 +4558,11 @@ declare const _exports: {
             "model": string;
             "device": string;
         })[];
+    };
+    "Topelotek": {
+        "regex": string;
+        "device": string;
+        "model": string;
     };
     "Toplux": {
         "regex": string;
@@ -4457,10 +4642,15 @@ declare const _exports: {
     "Ulefone": {
         "regex": string;
         "device": string;
-        "models": {
+        "models": ({
             "regex": string;
             "model": string;
-        }[];
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "UMIDIGI": {
         "regex": string;
@@ -4502,7 +4692,10 @@ declare const _exports: {
     "Vastking": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
     };
     "ViewSonic": {
         "regex": string;
@@ -4559,7 +4752,10 @@ declare const _exports: {
     "Venso": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
     };
     "Verizon": {
         "regex": string;
@@ -4572,10 +4768,15 @@ declare const _exports: {
     "Verykool": {
         "regex": string;
         "device": string;
-        "models": {
+        "models": ({
             "regex": string;
             "model": string;
-        }[];
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "Vestel": {
         "regex": string;
@@ -4783,10 +4984,15 @@ declare const _exports: {
     "Woxter": {
         "regex": string;
         "device": string;
-        "models": {
+        "models": ({
             "regex": string;
             "model": string;
-        }[];
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "X-View": {
         "regex": string;
@@ -4802,6 +5008,14 @@ declare const _exports: {
         })[];
     };
     "POCO": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Zopo": {
         "regex": string;
         "device": string;
         "models": {
@@ -4917,19 +5131,6 @@ declare const _exports: {
             "device": string;
         })[];
     };
-    "Toshiba": {
-        "regex": string;
-        "device": string;
-        "models": ({
-            "regex": string;
-            "model": string;
-            "device"?: undefined;
-        } | {
-            "regex": string;
-            "model": string;
-            "device": string;
-        })[];
-    };
     "Vivax": {
         "regex": string;
         "device": string;
@@ -4954,6 +5155,19 @@ declare const _exports: {
             "regex": string;
             "model": string;
             "device": string;
+        })[];
+    };
+    "FLYCAT": {
+        "regex": string;
+        "device": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
         })[];
     };
     "Fly": {
@@ -5014,7 +5228,15 @@ declare const _exports: {
             "model": string;
         }[];
     };
-    "Zopo": {
+    "Nubia": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Rakuten": {
         "regex": string;
         "device": string;
         "models": {
@@ -5096,10 +5318,15 @@ declare const _exports: {
     "Inoi": {
         "regex": string;
         "device": string;
-        "models": {
+        "models": ({
+            "regex": string;
+            "device": string;
+            "model": string;
+        } | {
             "regex": string;
             "model": string;
-        }[];
+            "device"?: undefined;
+        })[];
     };
     "Vertex": {
         "regex": string;
@@ -5113,11 +5340,6 @@ declare const _exports: {
             "device": string;
             "model": string;
         })[];
-    };
-    "Unknown": {
-        "regex": string;
-        "device": string;
-        "model": string;
     };
     "Starway": {
         "regex": string;
@@ -5267,6 +5489,11 @@ declare const _exports: {
             "model": string;
         })[];
     };
+    "Qubo": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
     "Umax": {
         "regex": string;
         "device": string;
@@ -5381,7 +5608,15 @@ declare const _exports: {
     "Proline": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": ({
+            "regex": string;
+            "device": string;
+            "model": string;
+        } | {
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        })[];
     };
     "Yota": {
         "regex": string;
@@ -5417,10 +5652,15 @@ declare const _exports: {
     "Runbo": {
         "regex": string;
         "device": string;
-        "models": {
+        "models": ({
             "regex": string;
             "model": string;
-        }[];
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "NewsMy": {
         "regex": string;
@@ -5474,13 +5714,31 @@ declare const _exports: {
             "model": string;
         }[];
     };
+    "DIXON": {
+        "regex": string;
+        "device": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
+    };
     "Kanji": {
         "regex": string;
         "device": string;
-        "models": {
+        "models": ({
             "regex": string;
             "model": string;
-        }[];
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "Kaiomy": {
         "regex": string;
@@ -5506,14 +5764,6 @@ declare const _exports: {
         "model": string;
     };
     "RugGear": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Aligator": {
         "regex": string;
         "device": string;
         "models": {
@@ -5571,14 +5821,6 @@ declare const _exports: {
         "regex": string;
         "device": string;
         "model": string;
-    };
-    "iVA": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
     };
     "Phicomm": {
         "regex": string;
@@ -5683,6 +5925,15 @@ declare const _exports: {
         "device": string;
         "model": string;
     };
+    "3GO": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "device": string;
+            "model": string;
+        }[];
+    };
     "Goophone": {
         "regex": string;
         "device": string;
@@ -5746,7 +5997,15 @@ declare const _exports: {
     "Vodacom": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": ({
+            "regex": string;
+            "device": string;
+            "model": string;
+        } | {
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        })[];
     };
     "VKworld": {
         "regex": string;
@@ -5761,12 +6020,12 @@ declare const _exports: {
         "device": string;
         "models": ({
             "regex": string;
-            "model": string;
-            "device"?: undefined;
-        } | {
-            "regex": string;
             "device": string;
             "model": string;
+        } | {
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
         })[];
     };
     "TWM": {
@@ -5811,7 +6070,10 @@ declare const _exports: {
     "Oale": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
     };
     "Mobo": {
         "regex": string;
@@ -5918,7 +6180,15 @@ declare const _exports: {
     "Maxtron": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "Philco": {
         "regex": string;
@@ -5949,7 +6219,15 @@ declare const _exports: {
     "Swipe": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "Owwo": {
         "regex": string;
@@ -6180,6 +6458,11 @@ declare const _exports: {
         "device": string;
         "model": string;
     };
+    "TurboPad": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
     "TurboKids": {
         "regex": string;
         "device": string;
@@ -6209,7 +6492,15 @@ declare const _exports: {
     "Torex": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "Doffler": {
         "regex": string;
@@ -6285,7 +6576,10 @@ declare const _exports: {
     "Openbox": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
     };
     "Ziox": {
         "regex": string;
@@ -6313,6 +6607,15 @@ declare const _exports: {
         "device": string;
         "models": {
             "regex": string;
+            "model": string;
+        }[];
+    };
+    "FISE": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "device": string;
             "model": string;
         }[];
     };
@@ -6347,10 +6650,15 @@ declare const _exports: {
     "Hotwav": {
         "regex": string;
         "device": string;
-        "models": {
+        "models": ({
             "regex": string;
             "model": string;
-        }[];
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "Tetratab": {
         "regex": string;
@@ -6540,7 +6848,15 @@ declare const _exports: {
     "P-UP": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "iVooMi": {
         "regex": string;
@@ -6649,6 +6965,11 @@ declare const _exports: {
         }[];
     };
     "ExMobile": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Exmart": {
         "regex": string;
         "device": string;
         "model": string;
@@ -7053,7 +7374,15 @@ declare const _exports: {
     "IKU Mobile": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "IKI Mobile": {
         "regex": string;
@@ -7362,11 +7691,6 @@ declare const _exports: {
             "model": string;
         })[];
     };
-    "Leff": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
     "Hardkernel": {
         "regex": string;
         "device": string;
@@ -7470,18 +7794,18 @@ declare const _exports: {
             "model": string;
         }[];
     };
+    "Jeka": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
     "Jiake": {
         "regex": string;
         "device": string;
-        "models": ({
-            "regex": string;
-            "model": string;
-            "device"?: undefined;
-        } | {
-            "regex": string;
-            "device": string;
-            "model": string;
-        })[];
+        "model": string;
     };
     "iQ&T": {
         "regex": string;
@@ -7573,6 +7897,14 @@ declare const _exports: {
             "model": string;
         }[];
     };
+    "STRONG": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
     "Gresso": {
         "regex": string;
         "device": string;
@@ -7653,7 +7985,15 @@ declare const _exports: {
     "Sunny": {
         "regex": string;
         "device": string;
-        "model": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
     };
     "TEENO": {
         "regex": string;
@@ -7705,7 +8045,605 @@ declare const _exports: {
     "F150": {
         "regex": string;
         "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "BilimLand": {
+        "regex": string;
+        "device": string;
         "model": string;
+    };
+    "Greentel": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Gretel": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Kyowon": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "LT Mobile": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "ONYX BOOX": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "AIRON": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "GFive": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "KINGZONE": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "M-Tech": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Fantec": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "AURIS": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "YUHO": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "F2 Mobile": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Zaith": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Spectralink": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Vega": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Bleck": {
+        "regex": string;
+        "device": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
+    };
+    "BS Mobile": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "RoyQueen": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Revo": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Axioo": {
+        "regex": string;
+        "device": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
+    };
+    "Pico": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "STG Telecom": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Rivo": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Four Mobile": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "7 Mobile": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "UZ Mobile": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "KREZ": {
+        "regex": string;
+        "device": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
+    };
+    "Kurio": {
+        "regex": string;
+        "device": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
+    };
+    "Inch": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "UTime": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "L-Max": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Astro": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "WIWA": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "FMT": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "mPhone": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Cobalt": {
+        "regex": string;
+        "device": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
+    };
+    "New Balance": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "AOYODKG": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Xtratech": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "XGIMI": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Raspberry": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Tambo": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Smotreshka": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Gooweel": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Vargo": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Elekta": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "YASIN": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Blow": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "FNF": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "iMan": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "VAVA": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "ivvi": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Dragon Touch": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "AOpen": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "AG Mobile": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "DIGIFORS": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "VIWA": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "M-Horse": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "ProVision": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Sirin labs": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Perfeo": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "CGV": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Telia": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Canal Digital": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "ZIFRO": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "SmartBook": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Kiowa": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Sprint": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Bundy": {
+        "regex": string;
+        "device": string;
+        "models": ({
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        } | {
+            "regex": string;
+            "device": string;
+            "model": string;
+        })[];
+    };
+    "Covia": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Smart": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Stylo": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Galaxy Innovations": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Benzo": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Vexia": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "HiMax": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Packard Bell": {
+        "regex": string;
+        "device": string;
+        "models": ({
+            "regex": string;
+            "device": string;
+            "model": string;
+        } | {
+            "regex": string;
+            "model": string;
+            "device"?: undefined;
+        })[];
+    };
+    "Qnet Mobile": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Bluebird": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Mara": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "BMAX": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Geotex": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "DING DING": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Trident": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "OKSI": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Taiga System": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Unknown": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "device": string;
+            "model": string;
+        }[];
     };
 };
 export = _exports;

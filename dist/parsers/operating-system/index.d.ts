@@ -1,7 +1,7 @@
 export interface OperatingSystemResult {
     name: string;
     version: string;
-    platform: "ARM" | "x64" | "x86" | "";
+    platform: "ARM" | "x64" | "x86" | "MIPS" | "SuperH" | "";
 }
 export declare type Result = OperatingSystemResult | null;
 interface Options {

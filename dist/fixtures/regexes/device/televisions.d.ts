@@ -416,7 +416,7 @@ declare const _exports: {
             "model": string;
         }[];
     };
-    "Smart": {
+    "Smart Electronic": {
         "regex": string;
         "device": string;
         "models": {

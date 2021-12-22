@@ -1,8 +1,27 @@
-export declare namespace Tesla {
-    export const regex: string;
-    export const device: string;
-    export const models: {
+declare const _exports: {
+    "Tesla": {
         "regex": string;
-        "model": string;
-    }[];
-}
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "MAC AUDIO": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Topway": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+};
+export = _exports;

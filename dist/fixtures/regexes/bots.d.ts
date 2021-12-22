@@ -25,6 +25,12 @@ declare const _exports: ({
 } | {
     "regex": string;
     "name": string;
+    "url": string;
+    "category"?: undefined;
+    "producer"?: undefined;
+} | {
+    "regex": string;
+    "name": string;
     "category": string;
     "url"?: undefined;
     "producer"?: undefined;
@@ -42,12 +48,6 @@ declare const _exports: ({
     "name": string;
     "category"?: undefined;
     "url"?: undefined;
-    "producer"?: undefined;
-} | {
-    "regex": string;
-    "name": string;
-    "url": string;
-    "category"?: undefined;
     "producer"?: undefined;
 } | {
     "regex": string;

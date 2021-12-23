@@ -27,7 +27,8 @@ class OperatingSystemParser {
                 if (!match)
                     continue;
                 result.name = variable_replacement_1.variableReplacement(operatingSystem.name, match);
-                result.version = version_1.formatVersion(variable_replacement_1.variableReplacement(operatingSystem.version, match), this.options.versionTruncation);
+                // operatingSystem.version = operatingSystem.version === null ? '' : operatingSystem.version
+                result.version = version_1.formatVersion(variable_replacement_1.variableReplacement(operatingSystem.version || "", match), this.options.versionTruncation);
                 if (result.name === "lubuntu") {
                     result.name = "Lubuntu";
                 }

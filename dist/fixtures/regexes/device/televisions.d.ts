@@ -1,23 +1,5 @@
 declare const _exports: {
-    "Airties": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "ALDI NORD": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "ALDI SÜD": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Altech UEC": {
+    "Hisense": {
         "regex": string;
         "device": string;
         "models": {
@@ -33,104 +15,35 @@ declare const _exports: {
             "model": string;
         }[];
     };
-    "ARRIS": {
+    "MediaTek": {
         "regex": string;
         "device": string;
         "models": {
             "regex": string;
             "model": string;
         }[];
-    };
-    "Atvio": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "BangOlufsen": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Blaupunkt": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Bush": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Celcus": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Changhong": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "CreNova": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Digihome": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "DMM": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "ELECTRONIA": {
-        "regex": string;
-        "device": string;
-        "model": string;
     };
     "Essentielb": {
         "regex": string;
         "device": string;
         "model": string;
     };
-    "Finlux": {
+    "X.Vision": {
         "regex": string;
         "device": string;
         "model": string;
     };
-    "F&U": {
+    "Techwood": {
         "regex": string;
         "device": string;
         "model": string;
     };
-    "Fuego": {
+    "ALDI NORD": {
         "regex": string;
         "device": string;
         "model": string;
     };
-    "GoGEN": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Grundig": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Haier": {
+    "Miray": {
         "regex": string;
         "device": string;
         "models": {
@@ -138,12 +51,17 @@ declare const _exports: {
             "model": string;
         }[];
     };
-    "Hi-Level": {
+    "Metz": {
         "regex": string;
         "device": string;
         "model": string;
     };
-    "Hisense": {
+    "REGAL": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "TD Systems": {
         "regex": string;
         "device": string;
         "models": {
@@ -151,7 +69,12 @@ declare const _exports: {
             "model": string;
         }[];
     };
-    "Hitachi": {
+    "DMM": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Kalley": {
         "regex": string;
         "device": string;
         "models": {
@@ -159,17 +82,7 @@ declare const _exports: {
             "model": string;
         }[];
     };
-    "Horizon": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Hotel": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Humax": {
+    "Loewe": {
         "regex": string;
         "device": string;
         "models": {
@@ -177,7 +90,28 @@ declare const _exports: {
             "model": string;
         }[];
     };
-    "Hyundai": {
+    "SEG": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "SWTV": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Philips": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Nordmende": {
         "regex": string;
         "device": string;
         "model": string;
@@ -187,7 +121,7 @@ declare const _exports: {
         "device": string;
         "model": string;
     };
-    "Intek": {
+    "JVC": {
         "regex": string;
         "device": string;
         "models": {
@@ -203,307 +137,12 @@ declare const _exports: {
             "model": string;
         }[];
     };
-    "JVC": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Kalley": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "KUBO": {
+    "Finlux": {
         "regex": string;
         "device": string;
         "model": string;
     };
-    "Laurus": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "LG": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Lifemaxx": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Linsar": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Loewe": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Luxor": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Manhattan": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "MediaTek": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Medion": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Miray": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "MStar": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "MTC": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Nordmende": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Metz": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Ok": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Panasonic": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "PEAQ": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Philips": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Polaroid": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "PROFiLO": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Qilive": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "REGAL": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Saba": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Salora": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Samsung": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "SCBC": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "SEG": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Selevision": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Sharp": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Skyworth": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Smart Electronic": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Sony": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "SWTV": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "TD Systems": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Technicolor": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Technika": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "TechniSat": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "TechnoTrend": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Techwood": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "Telefunken": {
-        "regex": string;
-        "device": string;
-        "model": string;
-    };
-    "TCL": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "Thomson": {
-        "regex": string;
-        "device": string;
-        "models": {
-            "regex": string;
-            "model": string;
-        }[];
-    };
-    "TOKYO": {
+    "Changhong": {
         "regex": string;
         "device": string;
         "models": {
@@ -519,7 +158,7 @@ declare const _exports: {
             "model": string;
         }[];
     };
-    "Videoweb": {
+    "Smart Electronic": {
         "regex": string;
         "device": string;
         "models": {
@@ -532,12 +171,373 @@ declare const _exports: {
         "device": string;
         "model": string;
     };
+    "TOKYO": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Technicolor": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "TechniSat": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Polaroid": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "GoGEN": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Atvio": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Manhattan": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Laurus": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "CreNova": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
     "WELLINGTON": {
         "regex": string;
         "device": string;
         "model": string;
     };
-    "X.Vision": {
+    "Luxor": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Hitachi": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "TechnoTrend": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Medion": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Skyworth": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Altech UEC": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Saba": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Panasonic": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Hotel": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "ELECTRONIA": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Ok": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Intek": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Technika": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "ALDI SÜD": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Hyundai": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "MStar": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Fuego": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Telefunken": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Samsung": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "F&U": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "PEAQ": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "PROFiLO": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Selevision": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Celcus": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "TCL": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "ARRIS": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Blaupunkt": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Sony": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Salora": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Sharp": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "KUBO": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Linsar": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Airties": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Humax": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Thomson": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Horizon": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Bush": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Digihome": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "LG": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Grundig": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Videoweb": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Hi-Level": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "Haier": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Qilive": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "BangOlufsen": {
+        "regex": string;
+        "device": string;
+        "model": string;
+    };
+    "MTC": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "SCBC": {
+        "regex": string;
+        "device": string;
+        "models": {
+            "regex": string;
+            "model": string;
+        }[];
+    };
+    "Lifemaxx": {
         "regex": string;
         "device": string;
         "model": string;

@@ -64,7 +64,8 @@ export default class OperatingSystemParser {
       if (!match) continue;
 
       result.name = variableReplacement(operatingSystem.name, match);
-      result.version = formatVersion(variableReplacement(operatingSystem.version, match), this.options.versionTruncation);
+      // operatingSystem.version = operatingSystem.version === null ? '' : operatingSystem.version
+      result.version = formatVersion(variableReplacement(operatingSystem.version || "", match), this.options.versionTruncation);
 
       if (result.name === "lubuntu") {
         result.name = "Lubuntu";

@@ -1,10 +1,10 @@
 declare const _exports: ({
     "regex": string;
-    "version": string;
     "name": string;
+    "version": string;
 } | {
     "regex": string;
-    "version": null;
     "name": string;
+    "version": null;
 })[];
 export = _exports;

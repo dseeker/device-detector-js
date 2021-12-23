@@ -1,23 +1,23 @@
 declare const _exports: ({
-    "version": string;
-    "name": string;
     "regex": string;
+    "name": string;
+    "version": string;
     "versions"?: undefined;
 } | {
+    "regex": string;
+    "name": string;
     "version": string;
-    "name": string;
     "versions": {
-        "version": string;
         "regex": string;
+        "version": string;
     }[];
-    "regex": string;
 } | {
+    "regex": string;
     "name": string;
     "versions": {
-        "version": string;
         "regex": string;
+        "version": string;
     }[];
-    "regex": string;
     "version"?: undefined;
 })[];
 export = _exports;

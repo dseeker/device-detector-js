@@ -1,6 +1,6 @@
 declare const _exports: {
     "regex": string;
-    "version": string;
     "name": string;
+    "version": string;
 }[];
 export = _exports;
